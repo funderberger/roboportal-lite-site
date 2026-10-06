@@ -1,14 +1,22 @@
 {
   "name": "Робопортал Москвы",
   "short_name": "Робопортал",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/roboportal-lite-site/",
+  "scope": "/roboportal-lite-site/",
   "display": "standalone",
   "background_color": "#0B0D0C",
   "theme_color": "#0B0D0C",
   "lang": "ru",
   "icons": [
-    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+    {
+      "src": "/roboportal-lite-site/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/roboportal-lite-site/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
   ]
 }
