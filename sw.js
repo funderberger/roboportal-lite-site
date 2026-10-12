@@ -4,11 +4,11 @@
    так загрузку не обрывает лимит браузера в 5 минут на одну операцию помощника (12.10.2026).
    Версия, подпапка и список основы подставляются при сборке (offlinePlugin в vite.config.ts). */
 
-const VERSION = "5748d24f5620";
+const VERSION = "7b7e9e42158b";
 // Подпапка адреса, где лежит сайт (например /roboportal-lite-site/); подставляется при сборке
 const BASE_RAW = "/roboportal-lite-site/";
 const BASE = BASE_RAW.startsWith("/") ? BASE_RAW : "/";
-const CORE = ["/roboportal-lite-site/","/roboportal-lite-site/index.html","/roboportal-lite-site/assets/index-Bi0cx0EV.css","/roboportal-lite-site/assets/index-QCq9152y.js","/roboportal-lite-site/assets/onest-cyrillic-B4DTQzs9.woff2","/roboportal-lite-site/assets/onest-cyrillic-ext-D3MbBdlY.woff2","/roboportal-lite-site/assets/onest-latin-BXvespbm.woff2","/roboportal-lite-site/assets/onest-latin-ext-BB1CCQzJ.woff2","/roboportal-lite-site/assets/onest-math-B6XOXjJb.woff2","/roboportal-lite-site/assets/onest-symbols-DO4Q1dvh.woff2","/roboportal-lite-site/assets/onest-vietnamese-_91sfWkv.woff2","/roboportal-lite-site/favicon.ico","/roboportal-lite-site/icon-180.png","/roboportal-lite-site/icon-192.png","/roboportal-lite-site/icon-512.png","/roboportal-lite-site/manifest.webmanifest"] || [];
+const CORE = ["/roboportal-lite-site/","/roboportal-lite-site/index.html","/roboportal-lite-site/assets/index-Bi0cx0EV.css","/roboportal-lite-site/assets/index-D-ODFUp0.js","/roboportal-lite-site/assets/onest-cyrillic-B4DTQzs9.woff2","/roboportal-lite-site/assets/onest-cyrillic-ext-D3MbBdlY.woff2","/roboportal-lite-site/assets/onest-latin-BXvespbm.woff2","/roboportal-lite-site/assets/onest-latin-ext-BB1CCQzJ.woff2","/roboportal-lite-site/assets/onest-math-B6XOXjJb.woff2","/roboportal-lite-site/assets/onest-symbols-DO4Q1dvh.woff2","/roboportal-lite-site/assets/onest-vietnamese-_91sfWkv.woff2","/roboportal-lite-site/favicon.ico","/roboportal-lite-site/icon-180.png","/roboportal-lite-site/icon-192.png","/roboportal-lite-site/icon-512.png","/roboportal-lite-site/manifest.webmanifest"] || [];
 const CACHE = "roboportal-" + VERSION;
 const PREFIX = "roboportal-";
 // Файлы без хэша в имени: при обновлении всегда скачиваются заново
